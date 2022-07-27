@@ -1,0 +1,91 @@
+ 
+
+@import@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar{
+   background-color: rgb(225, 213, 213);
+    width: 20vw;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'PT Serif', serif;
+    height: 100vh;
+}
+.main{
+     
+     width: 80vw;
+}
+.container{
+    display: flex;
+}
+.sidebar nav{
+   padding: 40px;
+}
+.sidebar nav li{
+
+    list-style: none;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.infocontainer{
+    background-color:cornsilk;
+padding-left: 20px;
+height: 358px;
+margin: 100px auto;
+display: flex;
+}
+.myInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;   
+    width: 50vw;
+}
+.myInfo{
+width: 850;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'PT Serif', serif;
+font-family: 'Source Code Pro', monospace;
+    
+}
+.hello{
+    font-size: 45px;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 5px;
+    border-radius: 23px;
+    font-size: 10px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.about{
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.sidebar nav li a{
+ text-decoration: none;
+ color: rgb(36, 35, 35);
+}
+.myPic img{
+    height: 357px;
+    width: 357px;
+}
